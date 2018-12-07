@@ -101,5 +101,6 @@ public class BoxTester {
         Box inter = new Box(new BlockPos(1, 1, 1), new BlockPos(1, 1, 1));
         Assert.assertEquals(inter, box1.getIntersect(box2));
         Assert.assertEquals(inter, box2.getIntersect(box1));
+		System.out.println("this is sample code change")
     }
 }
